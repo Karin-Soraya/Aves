@@ -1,0 +1,43 @@
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+/** 
+ * PAGINATION SECTION
+ */
+section.pagination {
+  margin: 40px 0;
+}
+
+section.pagination ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+section.pagination ul li a {
+  display: block;
+  padding: 10px;
+  border: 1px solid #000;
+  background: #2d2da4;
+  color: #fff;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 400ms ease;
+}
+section.pagination ul li a:hover {
+  background: #fff;
+  color: #2d2da4;
+}
+section.pagination ul li a.active {
+  background: #fff;
+  color: #2d2da4;
+}
+section.pagination ul li a.no-link {
+  background: #fff;
+  color: #2d2da4;
+  pointer-events: none;
+}
